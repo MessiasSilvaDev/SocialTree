@@ -1,0 +1,60 @@
+.main-section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-wrapper {
+  padding: 4rem 12rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-figure {
+  text-align: center;
+}
+
+.main-figure .image {
+  width: 20rem;
+  height: 20rem;
+  padding: 0.6rem;
+  border-radius: 50%;
+  border: 0.1rem solid var(--purple);
+}
+
+.main-figure .description {
+  color: var(--purple);
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+.wrapper-links .main-button {
+  margin-bottom: 3rem;
+}
+
+.main-button {
+  text-align: center;
+  padding: 1.5rem;
+  color: var(--purple);
+  border: 0.2rem solid var(--purple);
+  border-radius: 0.4rem;
+  text-transform: uppercase;
+}
+
+.wrapper-icons {
+  margin-top: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+@media (min-width: 750px) {
+  .main-button {
+    padding: 1.5rem 14rem;
+  }
+}

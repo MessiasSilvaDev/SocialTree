@@ -1,0 +1,23 @@
+:root {
+  --body-bg-color: #faf7fd;
+  --purple: #bb99dd;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  text-decoration: none;
+  list-style: none;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+body {
+  font-size: 1.6rem;
+}
